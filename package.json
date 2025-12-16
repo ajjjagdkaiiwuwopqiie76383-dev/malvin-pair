@@ -1,11 +1,11 @@
 {
-"name": "web-pair",
+"name": "virus-pair",
     "version": "0.0.1",
     "description": "A multi functional whatsapp bot Web paircode.",
     "main": "index.js",
     "scripts": {
       "start": "pm2 start index.js --deep-monitoring --attach --name malvin-xd",
-      "stop": "pm2 stop malvin-xd",
+      "stop": "pm2 stop virus-254",
      "restart": "pm2 restart malvin-xd"
     },
   "dependencies": {
@@ -23,3 +23,4 @@
     "async-mutex":"0.4.1"
    }
 }
+     "![POPKID-MD Bot Image](https://files.catbox.moe/se5e6e.jpg)"
