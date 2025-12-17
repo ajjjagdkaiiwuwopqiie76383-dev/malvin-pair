@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="https://github.com/XdKing2">
-    <img src="https://files.catbox.moe/se5e6e.jpg" width="200" height="200" alt="Malvin King"/>
+    <img src="https://files.catbox.moe/se5e6e.jpg" width="200" height="1000" alt="Malvin King"/>
   </a>
 </p>
 
