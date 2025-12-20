@@ -79,7 +79,43 @@ var randomItem = selectRandomItem(items);
                         let code = await sock.sendMessage(sock.user.id, { text: md });
                         let desc = `*Hey there, virus-XD User!* 👋🏻
 
-Thanks for using *virus-XD* — your session has been successfully created!
+Thanks for using *MY BOT* — your session has been successfully created!
+
+🔐 *Session ID:* Sent above  
+⚠️ *Keep it safe!* Do NOT share this ID with anyone.
+
+——————
+
+*✅ Stay Updated:*  
+Join our official WhatsApp Channel:  
+https://chat.whatsapp.com/DkaqpXIK87HE11pAHWERN8
+
+*💻 Source Code:*  
+Fork & explore the project on GitHub:  
+https://github.com/XdKing2/virus-XD
+
+——————
+
+> *© Powered by virus-XD*
+Stay cool and hack smart. ✌🏻`; 
+                        await sock.sendMessage(sock.user.id, {
+text: desc,
+contextInfo: {
+externalAdReply: {
+title: "virus-xᴅ",
+thumbnailUrl: "https://files.catbox.moe/dmuunz.jpg",
+sourceUrl: "https://chat.whatsapp.com/DkaqpXIK87HE11pAHWERN8",
+mediaType: 1,
+renderLargerThumbnail: true
+}  
+}
+},
+{quoted:code })
+                    } catch (e) {
+                            let ddd = sock.sendMessage(sock.user.id, { text: e });
+                            let desc = `*Hey there, virus-XD User!* 👋
+
+Thanks for using *MY BOT* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -97,40 +133,6 @@ https://github.com/XdKing2/MALVIN-XD
 ——————
 
 > *© Powered by virus-XD*
-Stay cool and hack smart. ✌🏻`; 
-                        await sock.sendMessage(sock.user.id, {
-text: desc,
-contextInfo: {
-externalAdReply: {
-title: "ᴍᴀʟᴠɪɴ-xᴅ",
-thumbnailUrl: "https://files.catbox.moe/se5e6e.jpg",
-sourceUrl: "https://chat.whatsapp.com/DkaqpXIK87HE11pAHWERN8",
-mediaType: 1,
-renderLargerThumbnail: true
-}  
-}
-},
-{quoted:code })
-                    } catch (e) {
-                            let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `Hey there, virus-XD User!* 👋🏻
-
-Thanks for using *virus-XD*— your session has been successfully created!
-
-🔐 *Session ID:* Sent above  
-⚠️ *Keep it safe!* Do NOT share this ID with anyone.
-
-——————
-
-*✅ Stay Updated:*  
-Join our official WhatsApp Channel:  https://chat.whatsapp.com/DkaqpXIK87HE11pAHWERN8
-*💻 Source Code:*  
-Fork & explore the project on GitHub:  
-https://github.com/XdKing2/MALVIN-XD
-
-——————
-
-> *© Powered by Malvin King*
 Stay cool and hack smart. ✌🏻`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
