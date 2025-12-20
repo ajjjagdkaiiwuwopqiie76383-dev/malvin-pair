@@ -72,7 +72,7 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "virus~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hey there,  User!* 👋🏻
+                        let desc = `*Hey there, User!* 👋🏻
 
 Thanks for using *my bot*— your session has been successfully created!
 
