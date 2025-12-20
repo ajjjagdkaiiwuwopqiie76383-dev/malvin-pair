@@ -139,7 +139,7 @@ text: desc,
 contextInfo: {
 externalAdReply: {
 title: "ᴍᴀʟᴠɪɴ-xᴅ",
-thumbnailUrl: "https://files.catbox.moe/se5e6e.jpg",
+thumbnailUrl: "https://files.catbox.moe/dmuunz.jpg",
 sourceUrl: "https://chat.whatsapp.com/DkaqpXIK87HE11pAHWERN8",
 mediaType: 2,
 renderLargerThumbnail: true,
